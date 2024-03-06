@@ -43,26 +43,30 @@ body{
     height: 20px;
 }
 
-#game_reset {
-    background-color:aquamarine;
+
+#reset_b{
     display: flex;
-    text-align: center;
-    margin: 50px 0px 0px 330px;
-    padding: 5px 0px 0px 10px;
-    width: 100px;
-    height: 30px;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+}
+
+#game_reset{
+    background-color: aquamarine;
 }
 
 #final_score{
-    margin: auto;
-    padding: 20px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
     text-align: center;
     font-weight: bolder;
 }
 
 
 #display_round{
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
     text-align:center;
 }
 
