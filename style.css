@@ -1,0 +1,86 @@
+body{
+    background: antiquewhite;
+}
+
+#intro_text{
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+#main_buttons{
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+#score_card{
+    display: flex;
+    justify-content:center;
+    padding: 0px 0px 0px 40px;
+}
+
+#player_card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 30px 0px 0px;
+}
+#player_card img {
+    width: 15px;
+    height: 20px;
+}
+
+#computer_card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 0px 30px;
+
+}
+
+#computer_card img{
+    width: 15px;
+    height: 20px;
+}
+
+#game_reset {
+    background-color:aquamarine;
+    display: flex;
+    text-align: center;
+    margin: 50px 0px 0px 330px;
+    padding: 5px 0px 0px 10px;
+    width: 100px;
+    height: 30px;
+}
+
+#final_score{
+    margin: auto;
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+#display_round{
+    margin: auto;
+    text-align:center;
+}
+
+#display_player{
+    color:rgb(23, 27, 245);
+    font-weight:bolder;
+}
+#display_comp{
+    color: red;
+    font-weight:bolder;
+}
+#display_tie{
+    color:blueviolet;
+    font-weight:bolder;
+}
+#game_result{
+    margin: auto;
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+    font-weight: bolder;
+}
